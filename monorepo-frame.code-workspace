@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "clients",
+			"name": "clients"
+		},
+		{
+			"path": "servers",
+			"name": "servers"
+		},
+		{
+			"path": ".",
+			"name": "root",
+		}
+	],
+	"settings": {
+		// Set the Python interpreter globally, so VS Code stops complaining about invalid interpreter on other folders
+		"python.defaultInterpreterPath": "~/.virtualenvs/monorepo-frame/bin/python",
+	}
+}
